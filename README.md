@@ -19,6 +19,8 @@ You can either import the dataset into MySQL by
 ![](https://paper-attachments.dropbox.com/s_8FAC4FB9CCE959A552D0F02E5B31F79A253F8478393075D30983A037BA96ED52_1595217144730_image.png)
 
 - or using the following cmd
+
+    ```
     // mysqladmin -u root password 'yourpassword'
     // mysql –u root –p
     mysql -uroot -p crud > crud.sql
