@@ -24,7 +24,7 @@ You can either import the dataset into MySQL by
     // mysqladmin -u root password 'yourpassword'
     // mysql –u root –p
     mysql -uroot -p crud > crud.sql
-
+    
 ### Step 4 
 Open your project in IDE (for example, VS Code) and start working!
 
