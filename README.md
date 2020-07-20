@@ -43,7 +43,7 @@ We also tried to set up the server remotely using C-Panel.
 
 The detailed steps shows as follow, 
  
-### Step1
+### Step 1
 Register a domain in University of Illinois cPanel Web Hosting Service
 
 ![](https://lh4.googleusercontent.com/aegaEBEMDHePbvaCNgkOc-rD6NLbyBXD06L67yvqf3oyKS_lksCZTQwaUnJ_OK3qsrfOA2WvbaGQWp_iwK_1Li2KSqTKrJFmZPKiP6cUiWlpMF6dHLzH-2_uJzrAgFiBXe9aII8)
@@ -59,6 +59,7 @@ Upload files to File Manager’
 
 ### Step 4
 Create database and add user
+
 Notes: We follow the tutorial here https://www.youtube.com/watch?v=CHwxXGPnw48
   
 ## Remote database setup:
