@@ -1,6 +1,8 @@
 # flask-crud-application-with-mysql
 This is a python flask crud application development 
 
+To run the demo framework successfully in local computers. Please follow the follow the following steps including setting up MySql and Flask environments, configuring the Mysql server, importing demo-database into project folder, and etc. 
+
 ### Step1 
 Install python and MySQL on your machine
 
@@ -25,7 +27,7 @@ You can either import the dataset into MySQL by
 Open your project in IDE (for example, VS Code) and start working!
 
 ### Step 5
-termial:
+go to termial and `cd` to your work dirctory:
 
     python3 __init__.py
 
