@@ -41,21 +41,25 @@ We also tried to set up the server remotely using C-Panel.
 
 ![](https://lh4.googleusercontent.com/NZJA3GYhX6MO7MHRwRNO_U0QTXYlu27NV0_7IMXALXsC5mfOMSklTHqUMd5A-WFuQy0_NSpvELoWP0udiVX6sidW9C5uzEfyComEKjr3lKUdQ5sl67wmOifq58kUPqxwKAaj7LA)
 
-
 The detailed steps shows as follow, 
  
- 1. Register a domain in University of Illinois cPanel Web Hosting Service
+### Step1
+Register a domain in University of Illinois cPanel Web Hosting Service
 
 ![](https://lh4.googleusercontent.com/aegaEBEMDHePbvaCNgkOc-rD6NLbyBXD06L67yvqf3oyKS_lksCZTQwaUnJ_OK3qsrfOA2WvbaGQWp_iwK_1Li2KSqTKrJFmZPKiP6cUiWlpMF6dHLzH-2_uJzrAgFiBXe9aII8)
 
- 2. Create Python application in cPanel
+### Step 2
+Create Python application in cPanel
  
 ![](https://lh3.googleusercontent.com/A5I0DJfindWMx6TtOThFowdMFV_soczNLk3lAlvYYIAFtCh7VwXeLSrTwN3MaPkZrbbrK6-Ih9ddMX9LvoV1D8PZU3df6hZRKDnopbXqM6ZsxR0KsBz8SLpezByq7W-74xYQ7F4)
 
 Notes: The tutorial we follow for deploying flask application at cPanel is at https://www.youtube.com/watch?v=xFxL7Mvut6g
- 3. Upload files to File Manager’
- 4. Create database and add user
- Notes: We follow the tutorial here https://www.youtube.com/watch?v=CHwxXGPnw48
+### Step 3
+Upload files to File Manager’
+
+### Step 4
+Create database and add user
+Notes: We follow the tutorial here https://www.youtube.com/watch?v=CHwxXGPnw48
   
 ## Remote database setup:
 
