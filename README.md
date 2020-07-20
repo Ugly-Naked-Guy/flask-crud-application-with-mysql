@@ -1,5 +1,67 @@
-# flask-crud-application-with-mysql
-This is a python flask crud application development 
+# UIUC COVID-19 Tracker
+
+The UIUC COVID-19 Tracker is a web platform where it records the confirmed/suspected cases of COVID-19 around the Champaign area. It also allowed users to self-report symptoms and testing results to help prevent the virus from spreading. 
+
+## Description
+
+We aim to design a web application to record the latest confirmed cases of COVID-19 around the Champaign area and to present some basic statistics. It will help administrators to better manage suspected cases, assign test indicators, and track students’ health situation around campus. Additionally, we allowed users to register for their own account to self-report the suspected cases or subscribe for their own location to receive an alert when someone nearby got confirmed.  And one of the advanced features is our system can estimate the infection probability by symptoms you provided. It is useful for students to notice the high-risk areas in advance and acknowledge whether they need to seek help from further medical assistance.
+
+## Usefulness
+
+Similar websites/applications
+1. Where COVID-19 (by CyberGIS Center for Advanced Digital and Spatial Studies at the University of Illinois at Urbana-Champaign)
+2. Healthlynked COVID-19 tracker
+
+Differences
+
+1. A prediction model is developed in our platform, which outputs the probability of disease infection and the emergency level of newly reported cases. Such evaluation allows the users to have a better judgment of his risks and the health system to better prioritize medical resources, such as the COVID-19 test and clinical slot, for those patients in need.
+2. With the mission of protecting the UIUC community in mind, our data attributes, user’s input options, and data visualization are specially customized for the UIUC community. For example, the hotspot places like Grainger library, Illini Union are incorporated in our hazard map and user interaction system.
+3. A user interaction system is developed. Users are not only able to communicate with each other, but will also receive alarm messages from our AI back-end engine which keeps monitoring newly reported cases and clustering patterns.
+
+## Realness and Data Sources
+
+1. The sources of the data can be divided into two types. One is provided by WOLFRAM DATA REPOSITORY, which can be accessed from the following URL: https://datarepository.wolframcloud.com/resources/Patient-Medical-Data-for-Novel-Coronavirus-COVID-19. The name of the dataset is COVID-19 cases with information like age, gender, symptoms is Patient Medical Data for Novel Coronavirus COVID-19. It contains the medical records of patients infected with novel coronavirus COVID-19. Patient record attributes include age, sex, location, date of onset, symptoms, travel history, chronic diseases, and date of discharge or death.
+2. The other part of the data is planned to be inserted by the user, which aims to be the student of the University of Illinois. Students are required to report their health conditions & symptoms, places they’ve visited, and tests & cases related information.
+- Health conditions and symptoms
+    - body temperature
+    - whether you have shortness of breath
+    - whether you have a cough
+    - whether you have a fever
+- Places visited
+    - whether you’ve been to public places (restaurant, pub, bank, and etc.)
+    - if so, whether you wear a face covering 
+    - The places you visited today 
+- Tests & Cases related information
+    - whether you’ve been tested
+    - whether you’ve been tested positive for COVID
+    - whether you are Close contacts of confirmed COVID-19 Patients
+Functionality
+
+## Basic Functions
+
+- INSERT:
+    - User can create a record of his/her health condition and travel history 
+    - Once the user has a positive test result, his travel history will be added to the high-risk area table.
+- UPDATE: 
+    - Once the user has a test result, his/her record will be updated as positive/negative cases.
+    - Once there is a confirmed case, the 
+- DELETE:  
+    - The platform will delete the outdated(earlier than 14 days) health condition record of the user.
+    - Show how to search the database and list or print returned results. You need to show a few different interesting queries over your database. 
+- SEARCH:
+    - For searching by location, the platform will show both users and administrators confirmed cases in a particular location.
+    - For searching by symptom, the platform can give administrators the record of suspected cases based on symptoms from confirmed cases.
+    - Based on users’ symptoms and travel history, the platform will give the priority of the users for the COVID-19 test.
+
+## Advanced Functions
+
+- Alert system
+
+Within each user’s account, users can subscribe for specific locations to receive latest alert when someone nearby got confirmed. It is useful for students to notice the high risk areas and avoid being there. It might be challenging in real-time implementation when the data becomes scalable. 
+
+- Estimation for infection probability 
+
+The estimation for infection probability is based on the data collected from both country level and county level (from self-reported local cases). The patient's characteristics such as demography and symptoms are jointly considered. Prevalent machine learning models including logistic regression and random forests will be implemented in our platform.
 
 ## local development enviroment setup
 To run the demo framework successfully in local computers. Please follow the follow the following steps including setting up MySql and Flask environments, configuring the Mysql server, importing demo-database into project folder, and etc. 
