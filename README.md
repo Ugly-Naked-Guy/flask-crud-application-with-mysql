@@ -34,6 +34,8 @@ go to termial and `cd` to your work dirctory:
 
     python3 __init__.py
     
+
+    
 ## Remote server setup:
 
 We also tried to set up the server remotely using C-Panel. 
