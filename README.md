@@ -84,6 +84,7 @@ You can either import the dataset into MySQL by
 - or using the following cmd
 
     ```
+    // mysql.server start
     // mysqladmin -u root password 'yourpassword'
     // mysql –u root –p
     mysql -uroot -p crud > crud.sql
