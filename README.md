@@ -63,7 +63,7 @@ Within each user’s account, users can subscribe for specific locations to rece
 
 The estimation for infection probability is based on the data collected from both country level and county level (from self-reported local cases). The patient's characteristics such as demography and symptoms are jointly considered. Prevalent machine learning models including logistic regression and random forests will be implemented in our platform.
 
-## local development enviroment setup
+## Local Development Enviroment Setup
 To run the demo framework successfully in local computers. Please follow the follow the following steps including setting up MySql and Flask environments, configuring the Mysql server, importing demo-database into project folder, and etc. 
 
 ### Step1 
